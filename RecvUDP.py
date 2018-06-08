@@ -7,10 +7,6 @@ PORT = 45600
 
 sock = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 
-#WE Bind to the address
-
-sock.bind((MY_ADDR, PORT))
-
 #We can receive data
 
 while True:
